@@ -1,10 +1,11 @@
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 export default {
-    input: "index.js",
+    input: "src/codemirror.js",
     output: {
         file: "./out/bundle.js",
-        format: "iife"
+        format: "iife",
+        name: "CodeMirror"
     },
     plugins: [ 
         nodeResolve()
