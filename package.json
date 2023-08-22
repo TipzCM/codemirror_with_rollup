@@ -13,7 +13,9 @@
     "@rollup/plugin-node-resolve": "^15.2.0"
   },
   "dependencies": {
+    "@codemirror/lang-javascript": "^6.1.9",
     "codemirror": "^6.0.1",
+    "plugin": "^0.3.3",
     "rollup": "^3.28.0"
   }
 }
